@@ -1,0 +1,59 @@
+<html>
+   <head>
+       <style>
+         h1{           
+           color:#FBF8BE;
+            }
+         h2{
+           background-color:#FF69B4;
+           color:#00FFFF;
+          }
+
+
+
+       *{font-size:30px;}
+
+       body{
+           background-image:url({{url_for('static', filename='bulitin/car1.jpg')}});
+           background-size:cover;
+           color:#FBF8BE;
+           background-color:#234E70
+         }
+         
+
+         .btn{border-radius:30px;
+          color:#00FFFF;
+          background-color:#FF69B4;}
+          a{
+           color:lightgreen;
+          }
+       </style>
+   </head>
+   <body>
+         <center>
+      <h2> Self Care Page </h2>
+        <a href="{{url_for("home")}}">Back</a>
+      <h1> Want Mediation Session </h1>
+               <iframe width="420" height="315"
+src="https://www.youtube.com/embed/NP8f-KcyYEc">
+</iframe>
+            <br/><br/>
+     <h1> Listen to White Music and Calm Urself </h1>
+                        <iframe width="420" height="315"
+src="https://www.youtube.com/embed/Mwx2yCGLMX8">
+</iframe>
+           <br/><br/>
+     <h1> Want Yoga Session </h1>
+                        <iframe width="420" height="315"
+src="https://www.youtube.com/embed/p9y-0VobWYU">
+</iframe>
+
+    <h1> Listen To Positive Stories&&Motivation Before Going To Bed </h1>
+                        <iframe width="420" height="315"
+src="https://www.youtube.com/embed/1dMx-2NGD5s">
+</iframe>
+
+         </center>
+        
+   </body>
+</html>

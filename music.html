@@ -1,0 +1,77 @@
+<html>
+   <head>
+      <style>
+
+       h1{           
+           color:#FF69B4;
+            }
+
+       *{font-size:30px;}
+
+       body{
+           background-image:url({{url_for('static', filename='bulitin/car1.jpg')}});
+           background-size:cover;
+           color:#FBF8BE;
+           background-color:#234E70
+         }
+         
+
+         .btn{border-radius:30px;
+          color:#00FFFF;
+          background-color:#FF69B4;}
+          a{
+           color:lightgreen;
+          }
+     </style>
+   </head>
+  <body>
+    <center>
+        <a href="{{url_for("home")}}">Back</a>
+<h1> Music Prediction Based on Personality </h1>
+        
+          <pre> {{msg}} </pre>
+<h1 id="mood">How  are  you  Feeling today ?? &nbsp We could suggest you some songs based on your mood</h1>
+<!-- mood based music -->
+<div class="card-group">
+  <div class="card">
+    <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="emoji">&#128516;</div>
+    <div class="card-body">
+      <h2 class="card-title">Happy</h2>
+      <iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+    </div>
+  </div>
+  <div class="card">
+    <div class="emoji">	&#128546;</div>
+    <div class="card-body">
+      <h2 class="card-title">Sad</h2>
+      
+<iframe width="420" height="315"
+src="https://youtube.com/embed/o7In7se2Kl4">
+</iframe>
+
+    </div>
+  </div>
+  <div class="card">
+    <div class="emoji">&#128544;</div>
+    <div class="card-body">
+      <h2 class="card-title">Angry</h2>
+      <iframe width="420" height="315"
+src="https://youtube.com/embed/C71xTnzGrbk">
+</iframe>
+    </div>
+  </div>
+</div>
+<!-- end of mood -->
+      
+        
+        
+        
+   </center>
+     
+  </body>
+ 
+ 
+</html>

@@ -1,0 +1,49 @@
+<html>
+   <head>
+     <style>
+       h1{
+           background-color:#FF69B4;
+           color:#00FFFF;
+            }
+       *{font-size:30px;}
+       body{
+           background-image:url({{url_for('static', filename='bulitin/car1.jpg')}});
+           background-size:cover;
+           color:#FBF8BE;
+           background-color:#234E70
+         }
+        a{
+           color:lightgreen;
+          }
+     </style>
+      
+     
+   </head>
+   <body>
+        
+     <center>
+       <h1> About us Page </h1>
+        <a href="{{url_for("home")}}">Back</a>
+      <div class="card-body">
+          <h5 class="card-title">About the App</h5>
+          <p class="card-text">
+              This Personality Prediction App consists of a questionnaire which uses Big Five model to predict a person's personality and suggest music related to their personality.
+        
+              The Big Five Traits are openness , extraversion, agreeableness, neuroticism and conscientiousness. The app will also  provide a detailed result after the quiz about where the user ranks based on big five traits.
+          </p>
+          <br>
+          
+          <p class="card-text">
+                              <center>
+              <h2 style="text-align: center;">Development Team</h2>
+              <ul class="list-group list-group-flush d-flex align-items-center">
+                               
+                        <h2> Samarth Ganesh Khaire </h2>
+                               </center>
+                
+              </ul>
+          </p>
+        </div>
+     </center>
+   </body>
+</html>
